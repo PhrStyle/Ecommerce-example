@@ -1,0 +1,12 @@
+README.md
+setup.py
+Ecommerce_example.egg-info/PKG-INFO
+Ecommerce_example.egg-info/SOURCES.txt
+Ecommerce_example.egg-info/dependency_links.txt
+Ecommerce_example.egg-info/requires.txt
+Ecommerce_example.egg-info/top_level.txt
+ecommerce/__init__.py
+ecommerce/asgi.py
+ecommerce/settings.py
+ecommerce/urls.py
+ecommerce/wsgi.py
