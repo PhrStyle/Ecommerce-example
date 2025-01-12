@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    {% load static %}
+
+    {% load icons %}
+    <link rel="stylesheet" href="{% static 'css/navbar.css' %}">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<header>
+    <div class="signupnow">Sign up and get 20% off to your first order. <a href="">Sign Up Now</a></div>
+
+    <nav class="navbar">
+        <h1 class="navbar-title" >SHOP.CO</h1>
+        <ul class="navbar-list" >
+            <li><a href="">Shop{% icon 'angledown' %}</a></li>
+            <li><a href="">On sale</a></li>
+            <li><a href="">New Arrivals</a></li>
+            <li><a href="">Brands</a></li>
+        </ul>
+        <form class="search">
+            <i class="search-icon">{% icon 'search' %}</i>
+            <input type="text" placeholder="Search">
+        </form>
+        <ul class="navbar-icons">
+            <li><a class="cart-icon" href="">{% icon 'cart' %}</a></li>
+            <li><a href="">{% icon 'user' %}</a></li>
+        </ul>
+    </nav>
+</header>
+</body>
+</html>

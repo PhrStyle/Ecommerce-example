@@ -8,6 +8,175 @@
     <link rel="stylesheet" href="{% static 'css/index.css' %}">
 </head>
 <body>
-    
+        
+        {% include "navbar.html" %}
+
+        <!-- 
+        Welcome
+        -->
+
+        <div class="welcome-container">
+            <div class="welcome-background">
+                <div class="welcome-content">
+                    <h1 class="welcome-slogan">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+                    <p class="welcome-detail">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
+                    <a class="welcome-button">Shop Now</a>
+                    <div class="welcome-data">
+                        <div>
+                            <h1>200+</h1>
+                            <p>International Brands</p>
+                        </div>
+                        <div>
+                            <h1>2,000+</h1>
+                            <p>High-Quality Products</p>
+                        </div>
+                        <div>
+                            <h1>30,000+</h1>
+                            <p>Happy Customers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 
+        Brands
+        -->
+
+        <div class="brands-container">
+            <div class="brands">
+                <img src="{% static 'images/brands/versace.svg' %}" alt="Versace">
+                <img src="{% static 'images/brands/zara.svg' %}" alt="Zara">
+                <img src="{% static 'images/brands/gucci.svg' %}" alt="Gucci">
+                <img src="{% static 'images/brands/prada.svg' %}" alt="Prada">
+                <img src="{% static 'images/brands/calvin.svg' %}" alt="Calvin Klein">
+            </div>
+        </div>
+        
+        <!-- 
+        Arrivals
+        -->
+
+        <div class="arrivals-container">
+            <h1 class="arrivals-title">New Arrivals</h1>
+            <div class="arrivals">
+                <div>
+                    <img src="{% static 'images/clothes.png' %}" alt="Product 1">
+                    <h1 class="product-title">T-shirt with Tape Details</h1>
+                    <div class="product-stars-container">
+                        <img class="product-stars" src="{% static 'images/stars.svg' %}" alt="Rating">
+                        <p>4.5/</p><p class="product-max-rating">5</p>
+                    </div>
+                    <p class="product-price">$100</p>
+                </div>
+                <div>
+                    <img src="{% static 'images/clothes.png' %}" alt="Product 1">
+                    <h1 class="product-title">T-shirt with Tape Details</h1>
+                    <div class="product-stars-container">
+                        <img class="product-stars" src="{% static 'images/stars.svg' %}" alt="Rating">
+                        <p>4.5/</p><p class="product-max-rating">5</p>
+                    </div>
+                    <div class="product-money">
+                        <p class="product-price">$100</p>
+                        <p class="product-exprice">$120</p>
+                        <p class="product-discount">-20%</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="{% static 'images/clothes.png' %}" alt="Product 1">
+                    <h1 class="product-title">T-shirt with Tape Details</h1>
+                    <div class="product-stars-container">
+                        <img class="product-stars" src="{% static 'images/stars.svg' %}" alt="Rating">
+                        <p>4.5/</p><p class="product-max-rating">5</p>
+                    </div>
+                    <p class="product-price">$100</p>
+                </div>
+                <div>
+                    <img src="{% static 'images/clothes.png' %}" alt="Product 1">
+                    <h1 class="product-title">T-shirt with Tape Details</h1>
+                    <div class="product-stars-container">
+                        <img class="product-stars" src="{% static 'images/stars.svg' %}" alt="Rating">
+                        <p>4.5/</p><p class="product-max-rating">5</p>
+                    </div>
+                    <p class="product-price">$100</p>
+                </div>
+            </div>
+            <a class="arrivals-button">View All</a>
+        </div>
+
+        <!-- 
+        Top Selling
+        -->
+
+        <div class="topselling-container">
+            <h1 class="topselling-title">Top Selling</h1>
+            <div class="topselling-products">
+                <div>
+                    <img src="{% static 'images/clothes.png' %}" alt="Product 1">
+                    <h1 class="product-title">T-shirt with Tape Details</h1>
+                    <div class="product-stars-container">
+                        <img class="product-stars" src="{% static 'images/stars.svg' %}" alt="Rating">
+                        <p>4.5/</p><p class="product-max-rating">5</p>
+                    </div>
+                    <p class="product-price">$100</p>
+                </div>
+                <div>
+                    <img src="{% static 'images/clothes.png' %}" alt="Product 1">
+                    <h1 class="product-title">T-shirt with Tape Details</h1>
+                    <div class="product-stars-container">
+                        <img class="product-stars" src="{% static 'images/stars.svg' %}" alt="Rating">
+                        <p>4.5/</p><p class="product-max-rating">5</p>
+                    </div>
+                    <div class="product-money">
+                        <p class="product-price">$100</p>
+                        <p class="product-exprice">$120</p>
+                        <p class="product-discount">-20%</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="{% static 'images/clothes.png' %}" alt="Product 1">
+                    <h1 class="product-title">T-shirt with Tape Details</h1>
+                    <div class="product-stars-container">
+                        <img class="product-stars" src="{% static 'images/stars.svg' %}" alt="Rating">
+                        <p>4.5/</p><p class="product-max-rating">5</p>
+                    </div>
+                    <p class="product-price">$100</p>
+                </div>
+                <div>
+                    <img src="{% static 'images/clothes.png' %}" alt="Product 1">
+                    <h1 class="product-title">T-shirt with Tape Details</h1>
+                    <div class="product-stars-container">
+                        <img class="product-stars" src="{% static 'images/stars.svg' %}" alt="Rating">
+                        <p>4.5/</p><p class="product-max-rating">5</p>
+                    </div>
+                    <p class="product-price">$100</p>
+                </div>
+            </div>
+
+            <a class="topselling-button">View All</a>
+
+        </div>
+
+        <!-- 
+        Dress Style
+        -->
+
+        <div class="dressstyle-container">
+            <div class="dressstyle">
+                <h1 class="dressstyle-title">Browse by Dress Style</h1>
+                <div class="dressstyle-casual">
+                    <h1>Casual</h1>
+                </div>
+                <div class="dressstyle-formal">
+                    <h1>Formal</h1>
+                </div>
+                <div class="dressstyle-party">
+                    <h1>Party</h1>
+                </div>
+                <div class="dressstyle-gym">
+                    <h1>Gym</h1>
+                </div>
+            </div>
+        </div>
 </body>
 </html>

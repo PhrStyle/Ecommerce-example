@@ -38,7 +38,17 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_icons',
 ]
+
+DJANGO_ICONS = {
+    "ICONS": {
+        "angledown": {"name": "fa-solid fa-angle-down"},
+        "search": {"name": "fa-solid fa-search"},
+        "cart": {"name": "fa-solid fa-shopping-cart"},
+        "user": {"name": "fa-regular fa-circle-user"},
+    },
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -55,7 +65,7 @@ ROOT_URLCONF = 'ecommerce.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / "templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

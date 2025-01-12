@@ -1,0 +1,244 @@
+
+.welcome-container {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    background-color: #f2f0f1;
+}
+
+.welcome-background {
+    background-image: url('../images/background.png');
+    height: 663px;
+    background-position: right;
+    min-width: 1420px;
+    
+}
+
+.welcome-content {
+    display: grid;
+    max-width: 600px;
+    height: 663px;
+    align-content: center;
+}
+
+.welcome-slogan {
+    font-family: IntegralCF;
+    font-size: 64px;
+}
+
+.welcome-detail {
+    margin-top: 32px;
+    color: #616060;
+}
+
+.welcome-button {
+    margin-top: 32px;
+    background-color: black;
+    border-radius: 62px;
+    color: white;
+    width: 210px;
+    height: 52px;
+    align-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.welcome-data {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.welcome-data div:first-child, .welcome-data div:nth-child(2) {
+    margin-right: 32px;
+    border-right: solid #dad8d9 1px;
+}
+
+/* brands*/
+
+.brands-container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.brands {
+    background-color: black;
+    display: flex;
+    max-width: 1240px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 122px;
+}
+
+.brands img {
+    height: 40px;
+}
+
+.arrivals-container {
+    height: 745px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    border-bottom: solid 1px #e6e6e6;
+}
+
+.arrivals {
+    display: flex;
+    gap: 20px;
+}
+
+.arrivals-title {
+    font-family: IntegralCF;
+    font-size: 48px;
+    margin-top: 74px;
+}
+
+.product-title {
+    font-size: 20px;
+}
+
+.product-stars-container {
+    display: flex;
+}
+
+.product-max-rating {
+    color: #666666;
+}
+
+.product-stars {
+    object-fit: none;
+    height: 19px;
+    object-position: left;
+}
+
+.product-money {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product-price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product-exprice {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: line-through;
+    color: #999999;
+}
+
+.product-discount {
+    background-color: #ffebeb;
+    color: #ff3333;
+    font-size: 12px;
+    border-radius: 62px;
+    width: 58px;
+    height: 28px;
+    text-align: center;
+    align-content: center;
+}
+
+.arrivals-button {
+    width: 218px;
+    height: 52px;
+    border-radius: 62px;
+    border: solid 1px #e6e6e6;
+    align-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.topselling-container {
+    height: 754px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.topselling-title {
+    font-family: IntegralCF;
+    font-size: 48px;
+    margin-top: 66px;
+}
+
+.topselling-products {
+    display: flex;
+    gap: 20px;
+}
+
+.topselling-button {
+    width: 218px;
+    height: 52px;
+    border-radius: 62px;
+    border: solid 1px #e6e6e6;
+    align-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dressstyle-container {
+    display: flex;
+    justify-content: center;
+    height: 866px;
+}
+
+.dressstyle {
+    display: grid;
+    max-width: 1240px;
+    width: 100%;
+    border-radius: 40px;
+    background-color: #F0F0F0;
+    grid-template-areas: 
+    "title title title"
+    "casual formal formal"
+    "party party gym"
+    ;
+    gap: 20px;
+    padding: 64px;
+}
+
+.dressstyle-title {
+    font-family: IntegralCF;
+    font-size: 48px;
+    grid-area: title;
+    margin-top: 24px;
+    justify-self: center;
+}
+
+.dressstyle-casual {
+    grid-area: casual;
+    background-image: url('../images/dressstyle1.png');
+}
+
+.dressstyle-formal {
+    grid-area: formal;
+    background-image: url('../images/dressstyle2.png');
+}
+
+.dressstyle-party {
+    grid-area: party;
+    background-image: url('../images/dressstyle3.png');
+}
+
+.dressstyle-gym {
+    grid-area: gym;
+    background-image: url('../images/dressstyle4.png');
+    
+}
+
+.dressstyle-casual, .dressstyle-formal, .dressstyle-party, .dressstyle-gym {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    border-radius: 20px;
+    height: 289px;
+    background-size: cover;
+}
+
+.dressstyle-casual h1, .dressstyle-formal h1, .dressstyle-party h1, .dressstyle-gym h1 {
+    padding: 36px;
+}
