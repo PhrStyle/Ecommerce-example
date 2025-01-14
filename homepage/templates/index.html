@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     {% load static %}
+    {% load icons %}
     <link rel="stylesheet" href="{% static 'css/index.css' %}">
 </head>
 <body>
@@ -36,6 +37,8 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="mobile-background">
             </div>
         </div>
 
@@ -178,5 +181,106 @@
                 </div>
             </div>
         </div>
+
+        <!-- 
+        Happy customers
+        -->
+
+        <div class="customers-container">
+            <div class="customers">
+                <h1 class="customer-title">OUR HAPPY CUSTOMERS</h1>
+                <div class="customer-arrow-container">
+                    <button class="customer-leftarrow">{% icon 'arrowleft' %}</button>
+                    <button class="customer-rightarrow">{% icon 'arrowright' %}</button>
+                </div>
+                <div class="customer-scroller">
+                    <div class="customer-detail">
+                        <img class="product-stars" src="{%   static 'images/stars.svg' %}" alt="Rating">
+                        <h1 class="customer-name">Sarah M.<i class="customer-check">{% icon 'circlecheck' %}</i></h1>
+                        <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+                    </div>
+                    <div class="customer-detail">
+                        <img class="product-stars" src="{%   static 'images/stars.svg' %}" alt="Rating">
+                        <h1 class="customer-name">Sarah M.<i class="customer-check">{% icon 'circlecheck' %}</i></h1>
+                        <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+                    </div>
+                    <div class="customer-detail">
+                        <img class="product-stars" src="{%   static 'images/stars.svg' %}" alt="Rating">
+                        <h1 class="customer-name">Sarah M.<i class="customer-check">{% icon 'circlecheck' %}</i></h1>
+                        <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+                    </div>
+                    <div class="customer-detail">
+                        <img class="product-stars" src="{%   static 'images/stars.svg' %}" alt="Rating">
+                        <h1 class="customer-name">Sarah M.<i class="customer-check">{% icon 'circlecheck' %}</i></h1>
+                        <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+                    </div>
+                    <div class="customer-detail">
+                        <img class="product-stars" src="{%   static 'images/stars.svg' %}" alt="Rating">
+                        <h1 class="customer-name">Sarah M.<i class="customer-check">{% icon 'circlecheck' %}</i></h1>
+                        <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 
+        Footer
+        -->
+
+        <footer class="footer-container">
+            <div class="footer">
+
+
+                <div class="footer-subscribe">
+                    <h1 class="subscribe-title">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h1>
+                    <div>
+                        <div class="subscribe-input">
+                            <i>{% icon 'mail' %}</i>
+                            <input type="email" placeholder="Enter your email adress">
+                        </div>
+                        <button class="subscribe-button">Subscribe to Newsletter</button>
+                    </div>
+                </div>
+
+                <div class="social-container">
+                    <h1 class="social-title">SHOP.CO</h1>
+                    <p>We have clothes that suits your style and which you’re proud to wear. From women to men.</p>
+                    <div class="social-medias">
+                        <a href="x.com"><i>{% icon 'twitter' %}</i></a>
+                        <a href="https://www.instagram.com"><i>{% icon 'instagram' %}</i></a>
+                        <a href="https://github.com/PhrStyle/Ecommerce-example"><i>{% icon 'github' %}</i></a>
+                    </div>
+                </div>
+
+                <div class="footer-data-containers footer-company">
+                    <h1 class="footer-data-title">COMPANY</h1>
+                    <a>About Us</a>
+                    <a>Features</a>
+                    <a>Work with Us</a>
+                    <a>Career</a>
+                </div>
+
+                <div class="footer-data-containers">
+                    <h1 class="footer-data-title">HELP</h1>
+                    <a>Customer Support</a>
+                    <a>FAQ</a>
+                    <a>Terms & Conditions</a>
+                    <a>Privacy Policy</a>
+                </div>
+
+
+                <div class="divisor">
+                    <p>© 2000-2021, All rights reserved</p>
+                    <div class="paymethods">
+                        <img src="{% static 'images/paymethods/visa.svg' %}">
+                        <img src="{% static 'images/paymethods/mastercard.svg' %}">
+                        <img src="{% static 'images/paymethods/paypal.svg' %}">
+                        <img src="{% static 'images/paymethods/apple-pay.svg' %}">
+                        <img src="{% static 'images/paymethods/google-pay.svg' %}">
+                    </div>
+                </div>
+
+        </footer>
+
 </body>
 </html>

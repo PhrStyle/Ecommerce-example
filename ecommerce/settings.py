@@ -47,6 +47,14 @@ DJANGO_ICONS = {
         "search": {"name": "fa-solid fa-search"},
         "cart": {"name": "fa-solid fa-shopping-cart"},
         "user": {"name": "fa-regular fa-circle-user"},
+        "arrowright": {"name": "fa-solid fa-arrow-right"},
+        "arrowleft": {"name": "fa-solid fa-arrow-left"},
+        "circlecheck": {"name": "fa-solid fa-check-circle"},
+        "mail": {"name": "fa-regular fa-envelope"},
+        "bars": {"name": "fa-solid fa-bars"},
+        "twitter": {"name": "fa-brands fa-twitter"},
+        "instagram": {"name": "fa-brands fa-instagram"},
+        "github": {"name": "fa-brands fa-github"},
     },
 }
 
